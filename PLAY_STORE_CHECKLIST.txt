@@ -1,0 +1,26 @@
+CHECKLIST DÉPLOIEMENT PLAY STORE - CoroPath
+
+□ Compte Google Play Developer créé (99$)
+□ Application déployée sur Vercel avec domaine HTTPS
+□ Manifest.json vérifié et optimisé
+□ Icônes 512x512 PNG/JPG créées
+□ 2-5 screenshots de l'application pris
+□ APK généré avec PWABuilder ou Bubblewrap
+□ Keystore créé et APK signé
+□ SHA-256 fingerprint obtenu
+□ assetlinks.json mis à jour avec SHA-256
+□ assetlinks.json déployé et accessible
+□ Description courte écrite (80 caractères max)
+□ Description longue écrite
+□ Catégorie "Médecine" sélectionnée
+□ Politique de confidentialité URL fournie
+□ Questionnaire de contenu rempli
+□ APK uploadé sur Play Console
+□ Application soumise pour review
+
+INFOS IMPORTANTES :
+- Package ID suggéré : com.clinique.coropath
+- Version initiale : 1.0.0
+- Délai de review : 1-7 jours
+- Updates web : automatiques
+- Updates APK : manuelles via Play Console

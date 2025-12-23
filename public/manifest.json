@@ -1,0 +1,60 @@
+{
+  "name": "CoroPath - Parcours de Soins Coronaires",
+  "short_name": "CoroPath",
+  "description": "Application professionnelle de parcours de soins coronaires pour la Clinique Pole Sante Sud Le Mans. Calculettes ESC 2023/2024, scores GRACE, PRECISE-DAPT, DAPT et accès rapide aux urgences.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "id": "coropath-cardiology-app",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#1e40af",
+  "theme_color": "#1e40af",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icons/icon-192.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icons/icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Parcours de soins coronaires"
+    },
+    {
+      "src": "/icons/icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Vue tablette"
+    }
+  ],
+  "categories": ["medical", "health", "productivity"],
+  "lang": "fr-FR",
+  "dir": "ltr",
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7"
+}
