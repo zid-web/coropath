@@ -1,60 +1,79 @@
 {
-  "name": "CoroPath - Parcours de Soins Coronaires",
-  "short_name": "CoroPath",
-  "description": "Application professionnelle de parcours de soins coronaires pour la Clinique Pole Sante Sud Le Mans. Calculettes ESC 2023/2024, scores GRACE, PRECISE-DAPT, DAPT et accès rapide aux urgences.",
-  "start_url": "/?source=pwa",
+  "id": "com.coropath.app",
+  "name": "Coropath",
+  "short_name": "Coropath",
+  "description": "Application médicale de suivi cardiologique",
+  "start_url": "/",
   "scope": "/",
-  "id": "coropath-cardiology-app",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui"],
-  "background_color": "#1e40af",
-  "theme_color": "#1e40af",
-  "orientation": "any",
-  "prefer_related_applications": false,
+  "theme_color": "#8B0000",
+  "background_color": "#FFFFFF",
+  "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/icons/icon-192.jpg",
+      "src": "/icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-512.jpg",
+      "src": "/icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-192.jpg",
+      "src": "/icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icons/icon-512.jpg",
+      "src": "/icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "maskable"
     }
   ],
   "screenshots": [
     {
-      "src": "/icons/icon-512.jpg",
-      "sizes": "512x512",
-      "type": "image/jpeg",
-      "form_factor": "narrow",
-      "label": "Parcours de soins coronaires"
-    },
-    {
-      "src": "/icons/icon-512.jpg",
-      "sizes": "512x512",
-      "type": "image/jpeg",
+      "src": "/screenshot.png",
+      "sizes": "640x640",
+      "type": "image/png",
       "form_factor": "wide",
-      "label": "Vue tablette"
+      "label": "Coropath Dashboard"
     }
   ],
-  "categories": ["medical", "health", "productivity"],
-  "lang": "fr-FR",
-  "dir": "ltr",
-  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7"
+  "categories": [
+    "medical",
+    "health"
+  ],
+  "shortcuts": [
+    {
+      "name": "Douleur Thoracique",
+      "short_name": "Douleur",
+      "description": "Guide d'évaluation de la douleur thoracique",
+      "url": "/?tab=douleur",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Suivi Post-Hospitalisation",
+      "short_name": "Suivi",
+      "description": "Parcours de suivi après hospitalisation",
+      "url": "/?tab=suivi",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
 }
